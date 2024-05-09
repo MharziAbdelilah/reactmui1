@@ -7,6 +7,8 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import Profil from "pages/Profil/Profil";
+import Settings from "pages/Settings/Settings";
 
 
 
@@ -17,6 +19,8 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       {/* i don't using / because he inherti with parent route */}
       <Route path="create" element={<Create />} />
+      <Route path="profil" element={<Profil />} />
+      <Route path="settings" element={<Settings />} />
     
     </Route>
   )
