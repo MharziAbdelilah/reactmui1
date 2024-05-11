@@ -18,9 +18,9 @@ const router = createBrowserRouter(
       {/* but index besauce my page index is home  */}
       <Route index element={<Home />} />
       {/* i don't using / because he inherti with parent route */}
-      <Route path="create" element={<Create />} />
-      <Route path="profil" element={<Profil />} />
-      <Route path="settings" element={<Settings />} />
+      <Route path="/create" element={<Create />} />
+      <Route path="/profil" element={<Profil />} />
+      <Route path="/settings" element={<Settings />} />
     
     </Route>
   )
